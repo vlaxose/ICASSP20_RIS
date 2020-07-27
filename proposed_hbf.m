@@ -21,17 +21,6 @@ function [Y_proposed_hbf, W_e, Psi_bar, Omega, Y] = proposed_hbf(H, N, Psi_i, T,
    
    R = Y + N;
 
-% % %    % Alternative formulation
-% % %    Y = N;
-% % %    for k=1:Nt
-% % %     Hl=[];
-% % %     for l=1:L
-% % %       Hl = [Hl H(:,k,l)];
-% % %     end
-% % %     Y = Y + Hl*Psi_i(1:L,:,k);
-% % %    end
-% % %    norm(Y-R)
-   
    %% Proposed HBF architecture
    Omega = eye(Lr_e, T);
    indices = randperm(T);
