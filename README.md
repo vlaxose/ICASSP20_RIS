@@ -1,6 +1,4 @@
-# RIS
-
-A Hardware Architecture For Reconfigurable Intelligent Surfaces with Minimal Active Elements for Explicit Channel Estimation
+# A Hardware Architecture For Reconfigurable Intelligent Surfaces with Minimal Active Elements for Explicit Channel Estimation
 
 Author: Evangelos Vlachos Last Modified: Nov., 2020
 
